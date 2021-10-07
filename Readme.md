@@ -1,1 +1,1 @@
-As versões do psp e suas especifidades
+As versões do psp e suas especificidades
