@@ -1,0 +1,51 @@
+@charset 'UTF-8';
+
+:root{
+    --tit: Tahoma, sans-serif;
+    --fp: Verdana, sans-serif;
+
+
+    --cor0: #357cded2;
+    --cor1: #0932E8;
+    --cor2: #2317FF;
+    --cor3: #280187;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: var(--cor0);
+}
+
+header {
+    font-family: var(--tit);
+    background-image: linear-gradient(to bottom, var(--cor2), rgba(0, 0, 0, 0.76));
+    height: 180px;
+    box-shadow: 0px 1px 10px 0px black;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.767);
+    min-width: 470px;
+}
+header > h1{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+header > h3{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    width: 1050px;
+    padding: 20px 0px 0px 0px;
+}
+main > img{
+    max-width: 65%;
+    min-width: 30%;
+    display: block;
+    margin: auto;
+}
