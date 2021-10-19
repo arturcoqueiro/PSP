@@ -38,6 +38,9 @@ header > h3{
     padding-top: 20px;
     padding-bottom: 15px;
     margin: auto;
+    font-size: 1.5em;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 main{
@@ -49,11 +52,8 @@ main{
     border-radius: 0px 0px 8px 8px;
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.747);
 }
-main img{
-    width: 100%;
-}
 main p{
-    text-indent: 11px;
+    text-indent: 13px;
     padding: 13px;
     font-weight: bold;
     line-height: 1.5em;
@@ -71,10 +71,17 @@ main h2{
     font-size: 1.5em;
     margin: 10px;
 }
+main h3{
+    margin: 10px;
+}
 .imgs{
-    width: 75%;
+    width: 73%;
     margin: auto;
     display: block;
+}
+mark{
+    background-color: #357cdea1;
+    border-radius: 3px;
 }
 
 ul{
