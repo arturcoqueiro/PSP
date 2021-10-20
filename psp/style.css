@@ -51,6 +51,7 @@ main{
     min-width: 400px;
     border-radius: 0px 0px 8px 8px;
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.747);
+    margin-bottom: 20px;
 }
 main p{
     text-indent: 13px;
@@ -59,11 +60,11 @@ main p{
     line-height: 1.5em;
 }
 main h1{
-    padding: 10px;
+    padding: 10px 10px 15px 10px;
     color: var(--cor2);
     font-size: 1.8em;
     text-indent: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-top: 10px;
 }
 main h2{
