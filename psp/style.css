@@ -62,7 +62,7 @@ main p{
 }
 main h1{
     padding: 10px 10px 15px 10px;
-    color: var(--cor2);
+    color: var(--cor4);
     font-size: 1.8em;
     text-indent: 15px;
     margin-bottom: 15px;
@@ -79,12 +79,17 @@ main h3{
 
 a{
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.562);
-    color: var(--cor4);
+    background-color: rgba(0, 0, 0, 0.171);
+    color: var(--cor3);
+    border-radius: 5px;
+    padding: 2px;
 }
 a:hover{
     text-decoration: underline;
-    
+    color: var(--cor3);
+    background-color: var(--cor0);
+    transition-duration: .5s;
+    transition-timing-function: .5s;
 }
 .imgs{
     width: 73%;
@@ -92,8 +97,9 @@ a:hover{
     display: block;
 }
 mark{
-    background-color: #357cdea1;
+    background-color: var(--cor0);
     border-radius: 3px;
+    padding: 2px;
 }
 
 ul{
@@ -103,4 +109,5 @@ ul{
 }
 ul li{
     text-indent: 30px;
+    font-weight: bold;
 }
