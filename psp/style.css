@@ -5,10 +5,11 @@
     --fp: Verdana, sans-serif;
 
 
-    --cor0: #357cded2;
-    --cor1: #0932E8;
-    --cor2: #2317FF;
-    --cor3: #280187;
+    --cor0: #0d29ffc0;
+    --cor1: #0A22D1;
+    --cor2: #081AA3;
+    --cor3: #081896;
+    --cor4: #06147D;
 }
 *{
     padding: 0px;
@@ -22,7 +23,7 @@ body{
 header {
     padding-top: 30px;
     font-family: var(--tit);
-    background-image: linear-gradient(to bottom, var(--cor2), rgba(0, 0, 0, 0.644));
+    background-image: linear-gradient(to bottom, var(--cor1), rgba(0, 0, 0, 0.877));
     box-shadow: 0px 1px 10px 0px black;
     min-height: 150px;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.767);
@@ -74,6 +75,16 @@ main h2{
 }
 main h3{
     margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.562);
+    color: var(--cor4);
+}
+a:hover{
+    text-decoration: underline;
+    
 }
 .imgs{
     width: 73%;
