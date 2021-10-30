@@ -2,10 +2,10 @@
 
 :root{
     --tit: Tahoma, sans-serif;
-    --fp: Verdana, sans-serif;
+    --fp: Arial, Helvetica, sans-serif;
 
 
-    --cor0: #0d29ffc0;
+    --cor0: #0d29ff96;
     --cor1: #0A22D1;
     --cor2: #081AA3;
     --cor3: #081896;
@@ -83,6 +83,7 @@ a{
     color: var(--cor3);
     border-radius: 5px;
     padding: 2px;
+    font-weight: bold;
 }
 a:hover{
     text-decoration: underline;
@@ -110,4 +111,9 @@ ul{
 ul li{
     text-indent: 30px;
     font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
 }
